@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "channels",
+  "info": {
+    "name": "channel",
+    "description": "YouTube channel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "channel id": {
+      "default": "",
+      "type": "string"
+    },
+    "channel name": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
